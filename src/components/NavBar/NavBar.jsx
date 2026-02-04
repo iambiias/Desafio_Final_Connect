@@ -7,6 +7,9 @@ import AcoesDaConnect from "../AcoesDaConnect/AcoesDaConnect"
 import QuemSomos from "../QuemSomos/QuemSomos"
 import Perfil from "../Perfil/Perfil"
 
+//importando a folha de estilo
+import styles from "./NavBar.module.scss"
+
 //Import das Imagens
 
 import Logo from "../../assets/logo.png"
@@ -17,7 +20,7 @@ function NavBar (){
     return (
 <BrowserRouter>
 
-<nav>
+<nav className={styles.navBar}>
     <img src={Logo} alt=""/>
     <ul>
         <li>
@@ -32,7 +35,7 @@ function NavBar (){
     </ul>
 
     <Link to="/perfil">
-    <img src={ImgPerfil} alt=""/>
+    <img className={styles.imgPerfil} src={ImgPerfil} alt=""/>
     </Link>
 
 </nav>

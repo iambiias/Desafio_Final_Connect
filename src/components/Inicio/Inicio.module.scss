@@ -1,0 +1,31 @@
+.containerTelaInicial {
+  //background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  border: solid red;
+  width: 45%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  h1 {
+    font-size: 5.62rem;
+    width: 50%;
+    border: solid purple;
+    color: #205691;
+    margin-bottom: 2rem;
+  }
+  p {
+    font-size: 1.5rem;
+    width: 75%;
+  }
+  img {
+    border: solid green;
+    height: 20%;
+  }
+}

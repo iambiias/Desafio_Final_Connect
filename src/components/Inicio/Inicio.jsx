@@ -1,5 +1,5 @@
 import styles from "./Inicio.module.scss";
-import ImgInicial from "../../assets/img-tela-inicial.png"
+import ImgInicial from "../../assets/imagemInicial.png"
 function Inicio() {
   return (
     <section className={styles.containerTelaInicial}>
@@ -10,7 +10,7 @@ function Inicio() {
           criamos mudanças reais na comunidade.
         </p>
       </div>
-      <img src={ImgInicial} alt="Imagem da tela inicial" />
+      <img className={ImgInicial} src={ImgInicial} alt="Imagem da tela inicial" />
     </section>
   );
 }

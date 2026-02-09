@@ -1,0 +1,63 @@
+.containerDeAcoes {
+  background-color: lime;
+}
+
+.boxTitulosAcoes {
+  border: solid violet;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  h2 {
+    font-size: 3rem;
+    color: #205691;
+  }
+
+  p {
+    font-size: 1.5rem;
+    border: solid yellow;
+    width: 50%;
+    text-align: center;
+  }
+}
+
+.containerCardsDeAcoes {
+  background-color: red;
+  border: solid pink;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cardsDeAcoes {
+  border: solid black;
+  width: 27%;
+  height: 35vh;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  img {
+    height: 15vh;
+  }
+
+  p {
+    font-size: 1rem;
+    text-align: center;
+    border: solid white;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    background-color: #205691;
+    font-size: 1.2 rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+}

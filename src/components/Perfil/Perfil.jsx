@@ -1,5 +1,7 @@
 import React from "react";
+import FotoDePerfil from "../../assets/perfil.png"
 import styles from "./Perfil.module.scss"
+
 
 function Perfil (){
     return (
@@ -7,7 +9,7 @@ function Perfil (){
 
 
 <article>
-    <img src="" alt="Foto de Perfil"/>
+    <img src={FotoDePerfil} alt="Foto de Perfil"/>
     <div className={styles.cardInfo}>
         <h2>Bianca Ferreira</h2>
         <h3>Voluntária Ativa</h3>

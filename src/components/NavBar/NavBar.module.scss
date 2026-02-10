@@ -6,7 +6,7 @@
   height: 15vh;
 
   ul {
-    border: solid red;
+    //border: solid red;
     display: flex;
     justify-content: space-between;
     width: 60%;
@@ -18,10 +18,11 @@
   }
 
   .imgPerfil {
-    height: 11vh;
+    height: 14vh;
     width: 6vw;
     border-radius: 100%;
     border: solid #00aaff 5px;
+    margin-top: 5px;
   }
 }
 //Vai valer em telas que tenham a largura entre 201px e 500px

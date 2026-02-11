@@ -3,58 +3,69 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
   article {
     display: flex;
-    border: solid #efeeea;
-    border-radius: 16px;
-    justify-content: space-around;
-    height: 50vh;
     align-items: center;
+    gap: 3rem;
+    width: 80%;
+    padding: 2.5rem;
+    border: 1px solid #efeeea;
+    border-radius: 16px;
+    background-color: #fff;
   }
-  h2 {
-    border: solid red 2px;
-    width: 15vw;
-    display: flex;
-    justify-content: space-between;
-  }
+
   img {
-    border-radius: 100%;
-    height: 70vh;
-    width: 26%;
-    border: solid #00aaff 5px;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #00aaff;
   }
 }
 
-//Div
 .cardInfo {
-  // border: solid rgb(4, 45, 134);
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  //  border: solid blue;
-  width: 50%;
-  height: 30vh;
+  gap: 0.8rem;
+  width: 100%;
+
+  h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2e8b57;
+  }
+
   .paragrafoSobreMim {
-    //   border: solid red;
     text-align: center;
+    max-width: 600px;
+    line-height: 1.5;
   }
 }
+
 address {
   display: flex;
-  justify-content: space-evenly;
-  // border: solid blue;
-  width: 90%;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-style: normal;
 }
+
 .listaInteresses {
-  //  border: solid rgb(11, 74, 162);
   display: flex;
-  width: 80%;
-  justify-content: space-evenly;
+  gap: 1rem;
+  margin-top: 1rem;
+
   li {
     background-color: #d4e7d6;
-    padding: 0.5rem;
+    padding: 0.4rem 0.8rem;
     color: #278733;
-    border-radius: 10px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
   }
 }

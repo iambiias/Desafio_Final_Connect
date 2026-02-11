@@ -10,7 +10,7 @@ function Inicio() {
           criamos mudanças reais na comunidade.
         </p>
       </div>
-      <img className={ImgInicial} src={ImgInicial} alt="Imagem da tela inicial" />
+      <img className={styles.imgInicial} src={ImgInicial} alt="Imagem da tela inicial" />
     </section>
   );
 }

@@ -5,7 +5,7 @@
   justify-content: center;
 
   div {
-    //border: solid red;
+    border: solid red;
     width: 75vw;
     height: 80vh;
     display: flex;
@@ -27,7 +27,10 @@
     color: #205691;
     font-weight: bold;
   }
-  .ImgInicial {
-    height: 20%;
+  .imgInicial {
+    height: 100%;
+    width: 88%;
+    border: solid green;
+    display: flex;
   }
 }

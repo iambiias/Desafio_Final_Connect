@@ -17,11 +17,11 @@ function Perfil (){
             Apaixonada por fazer a diferença na comunidade. Acredito que pequenas ações podem transformar vidas e estou sempre em  busca de novas oportunidades para ajudar.
             </p>
 
-        <adress>
+        <address>
             <p>Gravatá, PE</p>
             <p>biianca.sarah@gmail.com</p>
             <p>Membro desde Janeiro de 2022</p>
-        </adress>
+        </address>
 
     
     <ul className={styles.listaInteresses}>

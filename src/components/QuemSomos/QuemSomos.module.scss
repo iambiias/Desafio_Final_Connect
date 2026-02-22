@@ -9,16 +9,18 @@
   align-items: center;
 }
 .boxTextoQuemSomos {
-  border: solid red;
+  //border: solid red;
   width: 45%;
   height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 15px 10px 10px;
+  margin: 0 10px 0 0;
 
   h2 {
     color: #205691;
-    font-size: 2rem;
+    font-size: 1.8rem;
     //  border: solid red;
     width: 70%;
   }

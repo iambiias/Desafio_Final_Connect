@@ -6,19 +6,19 @@ footer {
   height: 15vh;
   color: #ffffff;
   div {
-    // border: solid red;
+    //border: solid red;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 15%;
+    width: 22%;
     h2 {
       font-size: 2rem;
       font-weight: 400;
     }
   }
   p {
-    //  border: solid white;
-    width: 25%;
+    //border: solid white;
+    width: 40%;
     font-weight: 400;
     text-align: center;
   }
@@ -27,6 +27,11 @@ footer {
     width: 15%;
     display: flex;
     justify-content: space-around;
+
+    img {
+      width: 40px;
+      margin: 8px 0;
+    }
   }
 }
 //Responsivo do footer
